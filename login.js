@@ -3,7 +3,7 @@ function validasi() {
     var password = document.getElementById("password").value;    if (username != "" && password!="") {
     return true;
     }else{
-    alert('Username dan Password Wajib Diisi :V');
+    alert('Username dan Password Wajib Diisi !!!');
     return false;
     }
 }
